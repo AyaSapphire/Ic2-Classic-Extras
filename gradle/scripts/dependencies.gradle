@@ -56,10 +56,6 @@ dependencies {
 
     //minecraft("net.minecraftforge:forge:1.12.2-14.23.5.2808")
     implementation 'org.jetbrains:annotations:19.0.0'
-    implementation("org.spongepowered:mixin:0.8-SNAPSHOT"){
-        transitive = false
-    }
-    annotationProcessor("org.spongepowered:mixin:0.8.4-SNAPSHOT")
     compileOnly rfg.deobf("mezz.jei:jei_${forgemc_version}:${jei_version}:api")
     runtimeOnly rfg.deobf("mezz.jei:jei_${forgemc_version}:${jei_version}")
     compileOnly rfg.deobf("curse.maven:basemetals-240967:2712965")
