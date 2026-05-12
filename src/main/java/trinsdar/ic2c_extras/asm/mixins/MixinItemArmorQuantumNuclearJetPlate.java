@@ -10,7 +10,7 @@ import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.Shadow;
 import trinsdar.ic2c_extras.util.INuclearJetpackLogic;
 
-@Mixin(ItemArmorQuantumNuclearJetplate.class)
+@Mixin(value = ItemArmorQuantumNuclearJetplate.class, remap = false)
 public abstract class MixinItemArmorQuantumNuclearJetPlate extends ItemArmorQuantumSuit implements INuclearJetpackLogic {
     @Shadow
     public ItemArmorQuantumNuclearJetplate.NuclearQuantumJetpack jetpack;
