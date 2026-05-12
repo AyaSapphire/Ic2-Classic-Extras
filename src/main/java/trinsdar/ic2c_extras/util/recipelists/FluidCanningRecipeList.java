@@ -8,7 +8,6 @@ import ic2.api.recipe.MachineRecipeResult;
 import ic2.api.recipe.RecipeOutput;
 import ic2.core.block.machine.recipes.managers.RecipeManager;
 import ic2.core.util.helpers.CompareableStack;
-import ic2.core.util.helpers.ItemWithMeta;
 import net.minecraft.item.ItemStack;
 import net.minecraft.nbt.NBTTagCompound;
 import net.minecraftforge.fluids.FluidStack;

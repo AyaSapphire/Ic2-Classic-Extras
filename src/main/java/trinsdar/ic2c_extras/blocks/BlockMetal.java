@@ -1,6 +1,5 @@
 package trinsdar.ic2c_extras.blocks;
 
-import ic2.core.platform.lang.components.base.LocaleComp;
 import ic2.core.platform.textures.Ic2Icons;
 import ic2.core.platform.textures.obj.ITexturedBlock;
 import net.minecraft.block.Block;

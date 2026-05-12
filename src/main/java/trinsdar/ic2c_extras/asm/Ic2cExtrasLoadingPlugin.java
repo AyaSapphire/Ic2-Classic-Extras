@@ -5,8 +5,6 @@ import net.minecraftforge.common.ForgeVersion;
 import net.minecraftforge.fml.relauncher.CoreModManager;
 import net.minecraftforge.fml.relauncher.IFMLLoadingPlugin;
 import org.jetbrains.annotations.Nullable;
-import org.spongepowered.asm.launch.MixinBootstrap;
-import org.spongepowered.asm.mixin.Mixins;
 import zone.rong.mixinbooter.ILateMixinLoader;
 
 import java.io.File;

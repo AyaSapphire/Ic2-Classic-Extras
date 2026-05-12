@@ -4,7 +4,6 @@ import ic2.api.energy.tile.IHeatSource;
 import ic2.core.inventory.gui.GuiIC2;
 import ic2.core.inventory.gui.components.GuiComponent;
 import ic2.core.util.math.Box2D;
-import trinsdar.ic2c_extras.util.references.Ic2cExtrasLang;
 
 import java.awt.Color;
 import java.util.Collections;

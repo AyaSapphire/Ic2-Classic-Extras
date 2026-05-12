@@ -1,22 +1,17 @@
 package trinsdar.ic2c_extras.util.recipelists;
 
-import ic2.api.classic.recipe.machine.MachineOutput;
 import ic2.api.recipe.IFermenterRecipeManager;
 import ic2.api.recipe.IRecipeInput;
 import ic2.core.block.machine.recipes.managers.RecipeManager;
 import ic2.core.util.helpers.CompareableStack;
-import net.minecraft.item.ItemStack;
 import net.minecraft.util.Tuple;
 import net.minecraftforge.fluids.Fluid;
 import net.minecraftforge.fluids.FluidRegistry;
 import net.minecraftforge.fluids.FluidStack;
 import trinsdar.ic2c_extras.IC2CExtras;
 
-import java.util.ArrayList;
-import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.LinkedHashSet;
-import java.util.List;
 import java.util.Map;
 import java.util.Set;
 

@@ -3,7 +3,6 @@ package trinsdar.ic2c_extras.blocks;
 import ic2.api.crops.CropProperties;
 import ic2.api.crops.ICropTile;
 import ic2.core.block.crop.crops.CropCardBase;
-import ic2.core.platform.registry.Ic2Items;
 import net.minecraft.client.renderer.texture.TextureAtlasSprite;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.fml.relauncher.Side;

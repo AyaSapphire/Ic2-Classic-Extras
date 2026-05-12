@@ -6,7 +6,6 @@ import ic2.api.recipe.IRecipeInput;
 import ic2.core.IC2;
 import ic2.core.block.machine.high.TileEntityUraniumEnricher;
 import ic2.core.block.machine.low.TileEntityCompressor;
-import ic2.core.block.machine.low.TileEntityExtractor;
 import ic2.core.block.machine.recipes.managers.BasicMachineRecipeList;
 import ic2.core.inventory.filters.BasicItemFilter;
 import ic2.core.inventory.filters.CommonFilters;

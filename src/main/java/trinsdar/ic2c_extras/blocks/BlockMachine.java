@@ -3,7 +3,6 @@ package trinsdar.ic2c_extras.blocks;
 import ic2.core.IC2;
 import ic2.core.block.base.BlockMultiID;
 import ic2.core.block.base.tile.TileEntityBlock;
-import ic2.core.platform.config.IC2Config;
 import ic2.core.platform.lang.components.base.LocaleComp;
 import ic2.core.platform.registry.Ic2Items;
 import ic2.core.util.helpers.BlockStateContainerIC2;

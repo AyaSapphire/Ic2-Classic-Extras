@@ -3,7 +3,6 @@ package trinsdar.ic2c_extras.recipes;
 import ic2.api.classic.recipe.ClassicRecipes;
 import ic2.api.classic.recipe.crafting.ICraftingRecipeList;
 import ic2.api.classic.recipe.machine.IMachineRecipeList;
-import ic2.api.classic.recipe.machine.MachineOutput;
 import ic2.core.IC2;
 import ic2.core.block.machine.low.TileEntityCompressor;
 import ic2.core.block.machine.low.TileEntityMacerator;
@@ -302,8 +301,8 @@ public class MachineRecipes {
         TileEntityFluidCanningMachine.addEnrichingRecipe(new RecipeInputItemStack(new ItemStack(Registry.bioChaff)), FluidRegistry.getFluidStack("water", 1000), FluidRegistry.getFluidStack("biomass", 1000), TileEntityFluidCanningMachine.totalEu(400));
 
         if (Loader.isModLoaded("forestry")) {
-        	TileEntityFluidCanningMachine.addEnrichingRecipe(new RecipeInputItemStack(new ItemStack(Registry.bioChaff)), FluidRegistry.getFluidStack("for.honey", 1000), FluidRegistry.getFluidStack("biomass", 1500), TileEntityFluidCanningMachine.totalEu(400));
-        	TileEntityFluidCanningMachine.addEnrichingRecipe(new RecipeInputItemStack(new ItemStack(Registry.bioChaff)), FluidRegistry.getFluidStack("juice", 1000), FluidRegistry.getFluidStack("biomass", 1500), TileEntityFluidCanningMachine.totalEu(400));
+            TileEntityFluidCanningMachine.addEnrichingRecipe(new RecipeInputItemStack(new ItemStack(Registry.bioChaff)), FluidRegistry.getFluidStack("for.honey", 1000), FluidRegistry.getFluidStack("biomass", 1500), TileEntityFluidCanningMachine.totalEu(400));
+            TileEntityFluidCanningMachine.addEnrichingRecipe(new RecipeInputItemStack(new ItemStack(Registry.bioChaff)), FluidRegistry.getFluidStack("juice", 1000), FluidRegistry.getFluidStack("biomass", 1500), TileEntityFluidCanningMachine.totalEu(400));
         }
 
         TileEntityCompressor.addRecipe(new RecipeInputOreDict("dustTinyIron", 9), Ic2Items.ironDust);

@@ -4,7 +4,6 @@ import ic2.api.classic.recipe.machine.MachineOutput;
 import ic2.api.recipe.IRecipeInput;
 import ic2.core.block.machine.recipes.managers.RecipeManager;
 import ic2.core.util.helpers.CompareableStack;
-import ic2.core.util.helpers.ItemWithMeta;
 import net.minecraft.item.ItemStack;
 import trinsdar.ic2c_extras.IC2CExtras;
 

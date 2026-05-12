@@ -1,11 +1,9 @@
 package trinsdar.ic2c_extras.util;
 
-import gtclassic.api.helpers.GTHelperStack;
 import ic2.core.block.base.tile.TileEntityMachine;
 import ic2.core.fluid.IC2Tank;
 import ic2.core.util.misc.FluidHelper;
 import ic2.core.util.misc.StackUtil;
-import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.Tuple;
 import net.minecraft.util.math.MathHelper;

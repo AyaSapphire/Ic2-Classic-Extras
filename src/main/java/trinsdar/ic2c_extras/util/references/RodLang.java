@@ -2,9 +2,6 @@ package trinsdar.ic2c_extras.util.references;
 
 import ic2.core.platform.lang.components.base.LangComponentHolder;
 import ic2.core.platform.lang.components.base.LocaleComp;
-import ic2.core.platform.lang.storage.Ic2ItemLang;
-import trinsdar.ic2c_extras.recipes.Ic2cExtrasRecipes;
-import trinsdar.ic2c_extras.util.Registry;
 
 public class RodLang {
     public static LocaleComp nearDepletedUOXCell = new LangComponentHolder.LocaleItemComp("item.nearDepletedUOXCell");

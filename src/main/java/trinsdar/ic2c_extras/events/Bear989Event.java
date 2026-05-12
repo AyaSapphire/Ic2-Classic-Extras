@@ -1,19 +1,13 @@
 package trinsdar.ic2c_extras.events;
 
 import ic2.core.IC2;
-import ic2.core.platform.registry.Ic2Items;
 import net.minecraft.entity.player.EntityPlayer;
-import net.minecraft.inventory.IInventory;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
-import net.minecraftforge.fml.common.gameevent.PlayerEvent;
 import net.minecraftforge.fml.common.gameevent.TickEvent;
 import trinsdar.ic2c_extras.util.IReactorPlated;
-import trinsdar.ic2c_extras.util.Registry;
-import trinsdar.ic2c_extras.util.StackHelper;
 
-import java.util.List;
 import java.util.UUID;
 
 public class Bear989Event {

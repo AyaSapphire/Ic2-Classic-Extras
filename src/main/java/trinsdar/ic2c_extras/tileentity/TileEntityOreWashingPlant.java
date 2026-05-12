@@ -1,7 +1,5 @@
 package trinsdar.ic2c_extras.tileentity;
 
-import gtclassic.api.fluid.GTFluidHandler;
-import gtclassic.api.helpers.GTHelperFluid;
 import gtclassic.api.interfaces.IGTDebuggableTile;
 import ic2.api.classic.network.adv.NetworkField;
 import ic2.api.classic.recipe.machine.IMachineRecipeList;
@@ -27,7 +25,6 @@ import ic2.core.platform.lang.components.base.LocaleComp;
 import ic2.core.platform.registry.Ic2Items;
 import ic2.core.platform.registry.Ic2Sounds;
 import ic2.core.util.helpers.CompareableStack;
-import ic2.core.util.misc.FluidHelper;
 import ic2.core.util.misc.StackUtil;
 import ic2.core.util.obj.IClickable;
 import ic2.core.util.obj.ITankListener;
@@ -47,7 +44,6 @@ import net.minecraftforge.fluids.FluidStack;
 import net.minecraftforge.fluids.FluidUtil;
 import net.minecraftforge.fluids.IFluidTank;
 import net.minecraftforge.fluids.capability.CapabilityFluidHandler;
-import net.minecraftforge.fluids.capability.IFluidHandlerItem;
 import net.minecraftforge.fml.common.Optional;
 import net.minecraftforge.fml.relauncher.Side;
 import trinsdar.ic2c_extras.container.ContainerOreWashingPlant;
