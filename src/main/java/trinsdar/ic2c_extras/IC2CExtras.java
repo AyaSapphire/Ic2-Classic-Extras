@@ -30,9 +30,9 @@ import trinsdar.ic2c_extras.util.recipelists.FermenterRecipeManager;
 
 @Mod(name = IC2CExtras.NAME, modid = IC2CExtras.MODID, version = IC2CExtras.VERSION, dependencies = IC2CExtras.DEPENDS)
 public class IC2CExtras {
-    public static final String MODID = "ic2c_extras";
-    public static final String NAME = "IC2CExtras";
-    public static final String VERSION = "@VERSION@";
+    public static final String MODID = Tags.MOD_ID;
+    public static final String NAME = Tags.MOD_NAME;
+    public static final String VERSION = Tags.VERSION;
     public static final String DEPENDS = "required-after:ic2;required-after:ic2-classic-spmod;required-after:mixinbooter;after:gtclassic@[1.1.6,);after:gravisuit";
     public static final CreativeTabs creativeTab = new CreativeTabIC2CExtras(MODID);
 
